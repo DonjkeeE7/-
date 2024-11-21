@@ -1,0 +1,856 @@
+
+.me-lg-auto {
+    gap: 35px;
+}
+
+p {
+    font-family: "Montserrat", serif;
+}
+
+.section-start {
+    overflow: hidden;
+}
+
+.section-team {
+    overflow: hidden;
+}
+
+.news {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Jost", serif;
+}
+
+.section-start .me-lg-auto p {
+    margin-bottom: 0;
+    transition: 2s;
+    font-weight: 500;
+    color: white;
+}
+
+.p-3 {
+    padding: 0.5rem !important;
+}
+
+.me-lg-auto p:hover {
+    text-decoration: underline solid 2px white;
+    text-underline-offset: 5px;
+    transition: 2s;
+}
+
+.section-start {
+    background-image: url(../img/section-start.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-welcome .container .col-12 h1 {
+    width: 703px;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 144%;
+    padding-top: 109px;
+}
+
+.section-welcome .container .col-12 p {
+    width: 549px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 122%;
+    padding-bottom: 40px;
+}
+
+.section-welcome .container {
+    display: flex;
+}
+
+
+.btn-primary {
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #00EEFF;
+    color: #000045;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+.section-welcome .container {
+    padding-bottom: 100px;
+}
+
+.section-welcome .container img {
+    padding-top: 60px;
+}
+
+.section-team {
+    display: flex;
+    background-image: url(../img/section-team.png);
+}
+
+.section-team .container .card {
+    width: 250px !important;
+    border-radius: 23px;
+    background-color: #010B4C;
+}
+
+.section-team .container .col {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-next {
+    right: -120px;
+}
+
+.carousel-control-prev {
+    left: -120px;
+}
+
+.section-team .btn-primaryy {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #ffffff;
+    color: #000045;
+    border: 0px;
+    font-size: 14px;
+    padding: 0;
+    align-content: center;
+}
+
+.section-team.btn-primaryy:hover {
+    background-color: #00EEFF;
+    color: white;
+    transition: 1s;
+}
+
+.section-team .container h5 {
+    font-family: "Jost", serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-team .container P {
+    font-family: "Montserrat", serif;
+    color: white;
+    font-size: 15px;
+}
+
+.section-team .container h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 73px;
+}
+
+.section-team .container .carousel {
+    padding-bottom: 80px;
+}
+
+.news h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    line-height: 0;
+}
+
+.news {
+    background-image: url(../img/section-news.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news .row {
+    align-items: center;
+}
+
+.news .btn-primaryy {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #000045;
+    color: #ffffff;
+    border: 0px;
+    font-size: 14px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news .btn-primaryy:hover {
+    background-color: #028892;
+    color: white;
+    transition: 1s;
+}
+
+.news .container {
+    padding-bottom: 80px;
+}
+
+.section-trophies {
+    background: linear-gradient(to bottom, #000A2C, #0A0A5D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+.section-trophies .container h2 {
+    color: white;
+    font-family: "Jost", serif;
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+.section-trophies .container h3 {
+    color: white;
+    font-family: "Jost", serif;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.section-trophies .container p {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    padding-bottom: 35px;
+    padding-right: 100px;
+}
+
+.section-trophies .container img {
+    padding-top: 83px;
+    padding-bottom: 125px;
+}
+
+.btn-primaryyy {
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #ffffff;
+    color: #000045;
+    border: 0px;
+    align-content: center;
+}
+
+.btn-primaryyy:hover {
+    background-color: #00EEFF;
+    transition: 1s;
+}
+
+.section-trophies .container .row {
+    justify-content: center;
+}
+
+.section-match {
+    background-image: url(../img/section-match.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-match .container img {
+    width: 77px;
+    height: 75px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.section-match .container .card{
+    align-items: center;
+    margin-bottom: 80px;
+}
+.section-match .container .card-body img{
+    width: 20px;
+    height: 21px;
+}
+.section-match .container .card-body{
+    padding: 10px;
+    align-items: start;
+}
+.btn-primar {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+    background-color: #000045;
+    color: #ffffff;
+    border: 0px;
+    align-content: center;
+}
+
+.btn-primar:hover {
+    background-color: #00EEFF;
+    transition: 1s;
+}
+.section-match .container h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    line-height: 0;
+}
+.row-cols-md-3>* {
+    width: auto ;
+}
+footer{
+    background-image: url(../img/foot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid white 1px;
+}
+footer p{
+    color: white;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+footer .me-lg-auto{
+    gap: 0;
+    align-items: center;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer .nav img{
+    width: 68px;
+    height: 73px;
+}
+footer .me-lg-3{
+    gap: 15px;
+    margin-right: 0 !important;
+    display: flex;
+}
+
+
+
+@media (max-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px;
+    }
+
+    .carousel-control-next {
+        right: -60px;
+    }
+
+    .carousel-control-prev {
+        left: -60px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+
+    .section-welcome .container .col-12 h1 {
+        width: 700px;
+        color: white;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 144%;
+        padding-top: 80px;
+    }
+
+    .section-welcome .container .col-12 p {
+        width: 549px;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 122%;
+        padding-bottom: 40px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 40px;
+        width: 340px;
+        height: 531px;
+    }
+
+    .me-lg-auto {
+        gap: 30px;
+    }
+
+    .section-start .me-lg-auto p {
+        font-size: 14px;
+    }
+
+    .form-control {
+        width: 69%;
+    }
+
+    .section-team .container .card {
+        width: 250px !important;
+        border-radius: 23px;
+        background-color: #010B4C;
+    }
+
+    .section-team .container h1 {
+        font-size: 48px;
+        padding-bottom: 60px;
+    }
+
+    .news h1 {
+        font-size: 48px;
+    }
+
+    .section-trophies .container p {
+        font-size: 18px;
+    }
+    .section-match .container h1 {
+        font-size: 48px;
+    }
+    header img{
+        width: 60px;
+        height: 60px;
+    }
+    footer .nav img {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .section-welcome .container .col-12 h1 {
+        width: 620px;
+        color: white;
+        font-size: 44px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 144%;
+        padding-top: 109px;
+    }
+
+    .section-welcome .container .col-12 p {
+        width: 549px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 122%;
+        padding-bottom: 40px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 60px;
+        width: 310px;
+        height: 521px;
+    }
+
+    .form-control {
+        width: 25%;
+    }
+
+    .mb-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-welcome .container .col-12 h1 {
+        width: 510px;
+        color: white;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 144%;
+        padding-top: 109px;
+    }
+
+    .section-welcome .container .col-12 p {
+        width: 425px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 122%;
+        padding-bottom: 40px;
+    }
+
+    .btn-primary {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 40px;
+        width: 290px;
+        height: 450px;
+    }
+
+    .section-team .container .card {
+        width: 200px !important;
+        border-radius: 23px;
+        background-color: #010B4C;
+    }
+
+    .section-team .btn-primaryy {
+        width: 150px;
+        height: 40px;
+        font-weight: 600;
+        transition: 1s;
+        background-color: #ffffff;
+        color: #000045;
+        border: 0px;
+        font-size: 12px;
+        padding: 0;
+        align-content: center;
+    }
+
+    .section-team .container P {
+        font-family: "Montserrat", serif;
+        color: white;
+        font-size: 13px;
+    }
+
+    .section-team .container h1 {
+        font-size: 40px;
+        padding-bottom: 60px;
+    }
+
+    .news h1 {
+        font-size: 40px;
+    }
+
+    .section-trophies .container h3 {
+        font-size: 30px;
+    }
+
+    .section-trophies .container h2 {
+        font-size: 40px;
+    }
+
+    .section-trophies .container p {
+        font-size: 14px;
+    }
+
+    .btn-primaryyy {
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .section-trophies .container img {
+        padding-top: 111px;
+        padding-bottom: 125px;
+        width: 300px;
+        height: 597px;
+    }
+    .section-match .container h1 {
+        font-size: 40px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    footer .d-flex{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+
+    .section-welcome .container .col-12 h1 {
+        width: 366px;
+        color: white;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 144%;
+        padding-top: 80px;
+    }
+
+    .section-welcome .container .col-12 p {
+        width: 334px;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 122%;
+        padding-bottom: 30px;
+    }
+
+    .section-start .me-lg-auto p {
+        font-size: 12px;
+    }
+
+    .me-lg-auto {
+        gap: 25px;
+    }
+
+    .btn-primary {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 40px;
+        width: 232px;
+        height: 370px;
+    }
+
+    .section-team .container .one {
+        display: none;
+    }
+
+    .carousel-control-next {
+        right: -30px;
+    }
+
+    .carousel-control-prev {
+        left: -30px;
+    }
+
+    .section-team .container P {
+        font-family: "Montserrat", serif;
+        color: white;
+        font-size: 10px;
+    }
+
+    .section-team .container h5 {
+        font-family: "Jost", serif;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .section-team .container h1 {
+        font-size: 34px;
+        padding-bottom: 60px;
+    }
+
+    .news h1 {
+        font-size: 34px;
+    }
+
+    .me-lg-auto {
+        gap: 20px;
+    }
+
+    .section-trophies .container h3 {
+        font-size: 24px;
+    }
+
+    .section-trophies .container h2 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+
+    .section-trophies .container p {
+        font-size: 14px;
+        padding-bottom: 35px;
+        padding-right: 20px;
+    }
+
+    .section-trophies .container img {
+        padding-top: 173px;
+        padding-bottom: 125px;
+        width: 222px;
+        height: 570px;
+    }
+
+    .btn-primaryyy {
+        width: 170px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .section-match .container h1 {
+        font-size: 34px;
+    }
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+
+    .section-welcome .container .col-12 h1 {
+        width: 220px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 144%;
+        padding-top: 40px;
+    }
+
+    .section-welcome .container .col-12 p {
+        width: 195px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 122%;
+        padding-bottom: 5px;
+    }
+
+    .btn-primary {
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 35px;
+        width: 115px;
+        height: 227px;
+    }
+
+    .section-welcome .container img {
+        padding-top: 50px;
+        width: 115px;
+        height: 215px;
+    }
+
+    .section-team .container .two {
+        display: none;
+    }
+
+    .row-cols-3>* {
+        width: 100%;
+    }
+
+    .carousel-control-next {
+        right: -10px;
+    }
+
+    .carousel-control-prev {
+        left: -10px;
+    }
+
+    .section-team .container h1 {
+        font-size: 28px;
+        padding-bottom: 60px;
+    }
+
+    .news h1 {
+        font-size: 28px;
+    }
+
+    .me-lg-auto {
+        gap: 0px;
+    }
+
+    .form-control {
+        display: none;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .section-trophies .container h3 {
+        font-size: 18px;
+    }
+
+    .section-trophies .container h2 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .section-trophies .container p {
+        font-size: 10px;
+        padding-bottom: 35px;
+        padding-right: 0px;
+    }
+
+    .section-trophies .container .row {
+        justify-content: start;
+    }
+
+    .btn-primaryyy {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .section-trophies .container img {
+        padding-top: 169px;
+        padding-bottom: 125px;
+        width: 151px;
+        height: 480px;
+    }
+    .section-match .container h1 {
+        font-size: 26px;
+    }
+    footer p {
+        font-size: 8px;
+    }
+    footer .nav img {
+        width: 50px;
+        height: 50px;
+    }
+    footer img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 100%;
+    }
+}
